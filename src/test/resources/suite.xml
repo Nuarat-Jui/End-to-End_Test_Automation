@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automate daily finance management">
+    <test name="User Registration">
+        <classes>
+            <class name="testrunner.RegistrationTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Reset Password">
+        <classes>
+            <class name="testrunner.ResetLinkTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Login With New Password">
+        <classes>
+            <class name="testrunner.LoginWithNewPassTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Add Items">
+        <classes>
+            <class name="testrunner.AddItemsTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Update Gmail">
+        <classes>
+            <class name="testrunner.UpdateGmailTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Login With New Gmail">
+        <classes>
+            <class name="testrunner.LoginWithNewMailTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Admin Gmail Search">
+        <classes>
+            <class name="testrunner.AdminSearchGmailTestRunner"></class>
+        </classes>
+    </test>
+</suite>
